@@ -1,0 +1,18 @@
+{
+    "name": "vendor/nb-atoum-blog",
+    "description": "Description of project nb-atoum-blog.",
+    "authors": [
+        {
+            "name": "jubianchi",
+            "email": "your@email.here"
+        }
+    ],
+    "require-dev": {
+        "atoum/atoum": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "netbeans\\sample": "src"
+        }
+    }
+}

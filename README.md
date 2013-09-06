@@ -83,7 +83,7 @@ We now have our first unit test, so just launch it: click on its filename in the
 
 ![Unit tests - Failure](resources/images/result-2.png "Unit tests - Failure")
 
-What we have to do now is create our tested class and write the ```add``` method to make our test pass. Ass I told you, atoum and Netbeans expect your to be PSR-0 compliant so our class will lay in the ```src/netbeans/sample``` directory:
+What we have to do now is create our tested class and write the ```add``` method to make our test pass. Ass I told you, atoum and Netbeans expect your project to be PSR-0 compliant so our class will lay in the ```src/netbeans/sample``` directory:
 
 ```
 <?php
@@ -120,13 +120,13 @@ xdebug.remote_enable=1
 xdebug.remote_autostart=0
 ```
 
-What we do here is tell XDebug which IDE key will be used during debug session and enable remote debugging. ```remote_autostart``` will prevent atoum's child processes to automatically trigger a new session (yes, atoum runs every test in a single isolated PHP process!).
+What we do here is tell XDebug which IDE key will be used during debug session and enable remote debugging. ```remote_autostart``` will prevent atoum's child processes to automatically trigger a new session (yes, atoum runs every test in a single isolated PHP process!). If you want to know more about how to configure XDebug for a Netbeans usage, check out this [documentation](http://wiki.netbeans.org/HowToConfigureXDebug "Netbeans XDebug configuration")
 
 We are now ready to debug! To start your test in debug mode, you can chose between a keyboard shortcut (CMD+Shift+F5 on Mac OS X) or by right-clicking on the test file and choosing "Debug". But before triggering tests, you will have to put some breakpoint in your code so you can control the execution flow using debugger tools (Step over, step into, …).
 
 ![XDebug - Session](resources/images/xdebug.gif "XDebug - Session")
 
-Being able to run s step-by-step debugger in unit tests context will help you debug your code as you can make a specific behavior happen and track the execution in detail using the using the call stack and variables inspectors. 
+Being able to run s step-by-step debugger in unit tests context will help you debug your code as you can make a specific behavior happen and track the execution in detail using the call stack and variables inspectors. 
 
 ![XDebug - Inspectors](resources/images/inspectors.png "XDebug - Inspectors")
 

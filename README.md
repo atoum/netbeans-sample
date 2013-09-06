@@ -104,7 +104,9 @@ This is how netbeans will report the tests results : a shiny progress bar and a 
 
 ![Unit tests - TAP output](resources/images/output-1.png "Unit tests - TAP output")
 
-I won't cover the other test methods and let you discover them [here](https://github.com/jubianchi/atoum-sample). We will now switch to a new example to discover another feature: using XDebug to debug our code. 
+I won't cover the other test methods and let you discover them [here](https://github.com/jubianchi/atoum-sample). Using TDD, you will now be able to quickly write a test, run it, see it's failing, switch to your source file (ALT+CMD+T on Mac OS X), write some code to make the test pass, run it, see it's passing, switch to the test (again with ALT+CMD+T), write a failing test, … This is how we do!
+
+We will now switch to a new example to discover another feature: using XDebug to debug our code.
 
 #### Debugging
 

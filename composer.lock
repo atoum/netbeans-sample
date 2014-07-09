@@ -1,25 +1,24 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "b38333a73ac8bf243176a9f8bd8ffcc7",
-    "packages": [
-
-    ],
+    "hash": "fa9e00dfed1805de508e41f6fd8db95e",
+    "packages": [],
     "packages-dev": [
         {
             "name": "atoum/atoum",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/atoum/atoum.git",
-                "reference": "f50b8db6af060dbd50c487d889a4272865205273"
+                "url": "https://github.com/jubianchi/atoum.git",
+                "reference": "cd032f50fe8c954f15dae60d38fad6db2e2c8e08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atoum/atoum/zipball/f50b8db6af060dbd50c487d889a4272865205273",
-                "reference": "f50b8db6af060dbd50c487d889a4272865205273",
+                "url": "https://api.github.com/repos/jubianchi/atoum/zipball/cd032f50fe8c954f15dae60d38fad6db2e2c8e08",
+                "reference": "cd032f50fe8c954f15dae60d38fad6db2e2c8e08",
                 "shasum": ""
             },
             "require": {
@@ -45,7 +44,6 @@
                     "classes/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD"
             ],
@@ -80,20 +78,18 @@
                 "test",
                 "unit testing"
             ],
-            "time": "2013-09-06 13:35:53"
+            "support": {
+                "source": "https://github.com/jubianchi/atoum/tree/master",
+                "issues": "https://github.com/jubianchi/atoum/issues"
+            },
+            "time": "2014-07-08 20:13:56"
         }
     ],
-    "aliases": [
-
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
         "atoum/atoum": 20
     },
-    "platform": [
-
-    ],
-    "platform-dev": [
-
-    ]
+    "platform": [],
+    "platform-dev": []
 }

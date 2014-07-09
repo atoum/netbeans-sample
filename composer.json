@@ -7,6 +7,12 @@
             "email": "your@email.here"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jubianchi/atoum.git"
+        }
+    ],
     "require-dev": {
         "atoum/atoum": "dev-master"
     },
